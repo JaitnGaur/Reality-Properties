@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    width: 100%;
+}
+header {
+    position:absolute;
+    width: 100%;
+    padding: 40px 0;
+    z-index: 1;
+}
+input {outline: none;}
+/* nav .list-margin {
+    margin-left: 38px;
+} */
+.navbar-nav {
+    text-align: center;
+}
+.heart-icon-margin {
+    margin-left: 25px;
+}
+.nav__ul {
+    margin: auto 0;
+    margin-left: 50px;
+}
+.nav__arrow {
+    transform: rotate(90deg);
+}
+.font-size-14 {
+    font-size: 14px;
+}
+.font-size-16 {
+    font-size: 16px;
+}
+.font-size-18 {
+    font-size: 18px;
+}
+.font-size-22 {
+    font-size: 22px;
+}
+.font-size-24 {
+    font-size:24px;
+}
+.font-size-32 {
+    font-size:32px;
+}
+.font-size-42 {
+    font-size: 42px;
+}
+.margin-0 {
+    margin: 0 auto;
+}
+.font-color-454545 {
+    color: #454545;
+}
+.color-004dff {
+    color: #004dff;
+}
+.bg-color-004dff { 
+    background-color:#004dff;;
+}
+.opacity-7 {
+    opacity: 0.7;
+}
+.container {
+    max-width: 1102px;
+    margin: 0 auto;
+}
+.hero {
+    background: url("./images/hero-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:651px;
+    position:relative
+}
+.featured_section__flex-div {
+    margin: 30px 0;
+    row-gap: 30px;
+}
+footer {
+    margin-top: 80px;
+    padding: 50px 0;
+    background-color: #f6f7f9;
+}
+.footer-para {
+    line-height: 24px;
+    margin: 0 84px;
+    padding: 0 80px;
+}
+.featured_section {
+    padding:80px 0;
+}
+.margin-left-12 {
+    margin-left: 12px;
+}
+.property-btn {
+    display: inline-block;
+    padding: 12px 35px;
+    background-color: #004dff;
+    border-radius: 25px;
+    font-weight: 600;
+}
+button:hover,.property-btn:hover {
+    color:#ffffff;
+    cursor: default;
+}
+.contact-section {
+    padding: 20px 0;
+}
+.contact-section__card1{
+    background-color: #f6f7f9;
+}
+.contact-section__card2 {
+    background-color: #004dff; 
+}
+.contact-section__card1,.contact-section__card2 {
+    padding: 50px;
+    border-radius: 5px;
+}
+.contact-us-btn {
+    background-color: #1dc679;
+    border-radius: 25px;
+    padding: 12px 25px;
+    display: inline-block;
+}
+.sale-section {
+    margin: 80px 0;
+    min-height: 700px;
+    background: url('./images/beautiful-scenery.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sale-section__card1 {
+    padding: 50px;
+    margin-bottom:10px;
+}
+.sale-section__card2 {
+    padding: 20px 50px 0;
+}
+.sale-btn {
+    background-color: #ff9f00;
+    border-radius: 5px;
+    padding:4px 10px;
+}
+.contact-btn {
+    background-color:#004dff;
+    padding: 12px 20px;
+    border-radius: 25px;
+}
+.clients-section {
+    padding: 20px 0;
+}
+.slider {
+    position: relative;
+}
+.owl-item.active .card{
+    background-color: #f6f7f9;
+    margin: 15px;
+}
+.owl-item.active.center .card {
+    transform: scale(1.1) !important;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
+   line-height: 27px;
+   background-color: #ffffff;
+    border: 1px solid #f9f9f9;
+}
+.owl-item.active.center .card p {
+    font-size: 18px;
+}
+.owl-carousel {
+    position: relative;
+}
+.owl-nav .owl-next {
+    position:absolute;
+    top:50%;
+    right: 0;
+    font-size: 30px !important;
+    z-index: 1;
+}
+.owl-nav .owl-prev {
+    position:absolute;
+    top:50%;
+    left: 0;
+    font-size: 30px !important;
+    z-index: 1;
+}
+.owl-carousel .owl-item img {
+    height: 100px;
+    width: 100px !important;
+    display: inline !important;
+}
+.owl-nav.disabled {
+    display: block !important;
+}
+@media only screen and (max-width: 426px) {
+    .footer-para {
+        margin: 0;
+        padding: 0;
+    }
+    .input-div {
+        max-width: 635px;
+        min-height: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .dropdown-toggle {
+        width: 100px !important;
+        border-radius: 10px !important;
+        margin-bottom: 5px;
+        
+    }
+    .search-icon {
+        border-radius:10px
+    }
+    .dropdown-menu {
+        left: -44px !important;
+        top: 44px !important;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+  .sale-section__card2>div {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+}
