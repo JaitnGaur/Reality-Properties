@@ -30,8 +30,9 @@ nav .nav-link {
 .heart-icon-margin {
     margin-left: 25px;
 }
-.navbar-toggler {
-    border-right: 0.5px solid rgba(0, 0, 0, 0.1);
+.dropdown-toggle {
+    border-right: 0.5px solid rgba(0, 0, 0, 0.2);
+    width: 24%;
 }
 .navbar-toggler-icon {
     filter: invert(100%);
@@ -104,6 +105,10 @@ button,input {
     border: none;
     color: #454545;
 }
+.input-div {
+    max-width: 635px;
+    min-height: 50px;
+}
 .hero {
     background: url("./images/hero-background.png");
     background-size: cover;
@@ -127,6 +132,9 @@ footer {
 .featured_section__flex-div {
     margin: 30px 0;
     row-gap: 30px;
+}
+.featured_section__card {
+    max-width: 350px;
 }
 .margin-left-12 {
     margin-left: 12px;
