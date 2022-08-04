@@ -30,6 +30,9 @@ nav .nav-link {
 .heart-icon-margin {
     margin-left: 25px;
 }
+.navbar-toggler {
+    border: none;
+}
 .navbar-toggler-icon {
     filter: invert(100%);
 }
@@ -168,18 +171,21 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
 }
-.sale-section__card1 {
+.sale-section__info-card {
     padding: 50px;
     margin-bottom:10px;
+    max-width: 540px
 }
-.sale-section__card2 {
+.sale-section__contact-card {
     padding: 20px 50px 0;
+    max-width: 540px
 }
 .sale-btn {
     background-color: #ff9f00;
     border-radius: 5px;
     width: 87px;
    height: 30px;
+   line-height: 30px;
 }
 .contact-btn {
     background-color:#004dff;
@@ -199,7 +205,6 @@ footer {
     margin: 15px;
 }
 .owl-item.active.center .card {
-    transform: scale(1.1) !important;
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
    line-height: 27px;
    background-color: #ffffff;
@@ -208,8 +213,8 @@ footer {
 .owl-item.active.center .card p {
     font-size: 18px;
 }
-.owl-carousel {
-    position: relative;
+.owl-item.active.center .card h5 {
+    font-size: 24px;
 }
 .owl-nav .owl-next {
     position:absolute;
@@ -264,6 +269,9 @@ footer {
     input {
         padding: 15px !important;
     }
+    .dropdown-toggle::after {
+        margin-left: 20px;
+    }
   }
   @media only screen and (max-width: 991px) {
    .navbar {
@@ -271,7 +279,7 @@ footer {
    }
   }
   @media only screen and (max-width: 400px) {
-  .sale-section__card2>div {
+  .sale-section__contact-card>div {
     flex-direction: column;
     align-items: center;
     padding-bottom: 10px;
