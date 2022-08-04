@@ -34,6 +34,9 @@ nav .nav-link {
     border-right: 0.5px solid rgba(0, 0, 0, 0.2);
     width: 24%;
 }
+.dropdown-toggle:hover{
+    outline:  none;
+}
 .navbar-toggler-icon {
     filter: invert(100%);
 }
@@ -255,7 +258,17 @@ footer {
 .owl-nav.disabled {
     display: block !important;
 }
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 1024px) {
+    .contact-section__info-card {
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .navbar {
+     background-color: #004dff;
+    }
+   }
+   @media only screen and (max-width: 426px) {
     .footer-para {
         margin: 0;
         padding: 0;
@@ -287,24 +300,12 @@ footer {
     .dropdown-toggle::after {
         margin-left: 20px;
     }
+    .sale-section__contact-card>div {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+      }
   }
-  @media only screen and (max-width: 991px) {
-   .navbar {
-    background-color: #004dff;
-   }
-  }
-  @media only screen and (max-width: 426px) {
-  .sale-section__contact-card>div {
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 10px;
-  }
-}
-@media only screen and (max-width: 1024px) {
-    .contact-section__info-card {
-        margin-bottom: 10px;
-    }
-}
 @media only screen and (max-width: 376px){
 .fs-xxl {
     font-size: 26px;
