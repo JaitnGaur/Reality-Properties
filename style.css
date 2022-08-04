@@ -31,7 +31,7 @@ nav .nav-link {
     margin-left: 25px;
 }
 .navbar-toggler {
-    border: none;
+    border-right: 0.5px solid rgba(0, 0, 0, 0.1);
 }
 .navbar-toggler-icon {
     filter: invert(100%);
