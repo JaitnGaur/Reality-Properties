@@ -141,18 +141,20 @@ footer {
     font-weight: 600;
 }
 .contact-section {
-    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 100px;
 }
-.contact-section__info-card {
+.contact-section__info-card,.contact-section__sell-card {
     max-width: 520px;
+    border: none;
 }
-.contact-section__card1{
+.contact-section__info-card-body{
     background-color: #f6f7f9;
 }
-.contact-section__card2 {
+.contact-section__sell-card-body {
     background-color: #004dff; 
 }
-.contact-section__card1,.contact-section__card2 {
+.contact-section__info-card-body,.contact-section__sell-card-body {
     padding: 50px;
     border-radius: 5px;
 }
@@ -165,7 +167,6 @@ footer {
     display: inline-block;
 }
 .sale-section {
-    margin: 80px 0;
     min-height: 700px;
     background: url('./images/beautiful-scenery.png');
     background-size: cover;
@@ -194,18 +195,24 @@ footer {
     border-radius: 25px;
 }
 .clients-section {
-    padding: 20px 0;
+    padding-top: 100px;
+    padding-bottom: 20px;
 }
 .slider {
     position: relative;
     min-height: 450px;
 }
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
 .owl-item.active .card{
     background-color: #f6f7f9;
     margin: 15px;
+    border: none;
 }
 .owl-item.active.center .card {
-    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
    line-height: 27px;
    background-color: #ffffff;
     border: 1px solid #f9f9f9;
