@@ -44,13 +44,11 @@ nav .nav-link {
     filter: invert(100%);
 }
 .dropdown-toggle::after {
-    display: inline-block !important;
     margin-left: 34px;
-    vertical-align: middle;
     content: "" ;
     height: 6px;
     width: 10px;
-    background: url('./images/down-arrow.png') !important;
+    background: url('./images/down-arrow.png');
     border-top: 0 ;
     border-right: 0;
     border-bottom: 0;
@@ -110,6 +108,10 @@ button,input {
     box-shadow: none !important; 
     border: none;
     color: #454545;
+}
+.input-group .btn {
+    position: relative;
+    z-index: 0 !important;
 }
 .input-div {
     max-width: 635px;
@@ -272,6 +274,11 @@ footer {
     .navbar {
      background-color: #004dff;
     }
+    nav .nav-link {
+        margin-right: 39px;
+        padding: 21px !important;
+        border-bottom: 1px solid;
+    }
    }
    @media only screen and (max-width: 426px) {
     .footer-para {
@@ -299,7 +306,7 @@ footer {
         border-radius:10px
     }
     .dropdown-menu {
-        left: 36px !important;
+        left: 88px !important;
         top: 50px !important;
     }
     input {
@@ -343,6 +350,15 @@ footer {
 .contact-btn {
     line-height: 36px;
 }
+.dropdown-menu {
+    left: 65px !important;
+    top: 46px !important;
+}
+nav .nav-link {
+    margin-right: 39px;
+    padding: 23px !important;
+    border-bottom: 1px solid;
+}
 }
 @media only screen and (max-width: 321px) {
     .fs-m {
@@ -353,5 +369,9 @@ footer {
     }
     .sale-section__info-card .margin-left-12 {
         margin-left: 5px;
+    }
+    .dropdown-menu {
+        left: 39px !important;
+        top: 46px !important;
     }
 }
