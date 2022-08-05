@@ -61,11 +61,11 @@
               <h1 class="text-left text-white fs-xxl fw-bold">Let Us Guide You Home</h1>
               <p class="text-white mb-4 fw-bold">Find the house of your dreams.</p>
               <div class="input-group mb-3 input-div">
-                <button class="btn  dropdown-toggle bg-white fs-xs border-top-0 border-bottom-0 font-color-dark-gray" type="button" data-bs-toggle="dropdown" aria-expanded="false">For Rent</button>
+                <button class="btn  dropdown-toggle bg-white fs-xs border-top-0 border-bottom-0 font-color-dark-gray" id="selector" type="button" data-bs-toggle="dropdown" aria-expanded="false">For Rent</button>
                 <ul class="dropdown-menu fs-xs">
-                  <li><a class="dropdown-item" href="javascript:void(0)">Action</a></li>
-                  <li><a class="dropdown-item" href="javascript:void(0)">Another action</a></li>
-                  <li><a class="dropdown-item" href="javascript:void(0)">Something else here</a></li>
+                  <li class="dropdown-item" onclick="render('For Rent')">For Rent</li>
+                  <li class="dropdown-item" onclick="render('For Sell')">For Sell</li>
+                  <li class="dropdown-item" onclick="render('For Buy')">For Buy</li>
                 </ul>
                 <div class="bg-white d-flex rounded-3 input-box">
                 <button class="search-icon border-0 bg-white ps-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2e46e3" class="bi bi-search" viewBox="0 0 16 16">
@@ -269,6 +269,11 @@
     }
 })
 });
+
+let word= document.querySelector('#selector');
+function render(str){
+word.innerText=str;
+}
         </script>
     </body>
 </html>
