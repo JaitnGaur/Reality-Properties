@@ -404,7 +404,6 @@ nav .nav-link {
         position:absolute;
         top:50%;
         right: 0;
-        font-size: 30px !important;
         z-index: 1;
         color: #004dff;
     }
@@ -412,7 +411,6 @@ nav .nav-link {
         position:absolute;
         top:50%;
         left: 0;
-        font-size: 30px !important;
         z-index: 1;
         color: #004dff;
     }
