@@ -244,22 +244,8 @@ footer {
 .owl-item.active.center .card h5 {
     font-size: 24px;
 }
-.owl-nav .owl-next {
-    position:absolute;
-    top:50%;
-    right: 0;
-    font-size: 30px !important;
-    z-index: 1;
-    color: #004dff;
-}
-.owl-nav .owl-prev {
-    position:absolute;
-    top:50%;
-    left: 0;
-    font-size: 30px !important;
-    z-index: 1;
-    color: #004dff;
-}
+
+.owl-nav button {color: #004dff !important;}
 .owl-carousel .owl-item img {
     height: 100px;
     width: 100px !important;
@@ -321,6 +307,7 @@ footer {
     }
     input {
         padding: 15px !important;
+        color: #454545 !important;
     }
     .dropdown-toggle::after {
         margin-left: 20px;
@@ -328,7 +315,7 @@ footer {
     .sale-section__contact-card>div {
         flex-direction: column;
         align-items: center;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
       }
       .featured_section {
         padding: 40px 0;
@@ -393,5 +380,31 @@ nav .nav-link {
     }
     .navbar-brand img {
         width: 146px;
+    }
+    .sale-section__info-card {
+        padding: 34px;
+    }
+    .owl-nav {
+        display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    }
+}
+@media only screen and (min-width: 426px) {
+    .owl-nav .owl-next {
+        position:absolute;
+        top:50%;
+        right: 0;
+        font-size: 30px !important;
+        z-index: 1;
+        color: #004dff;
+    }
+    .owl-nav .owl-prev {
+        position:absolute;
+        top:50%;
+        left: 0;
+        font-size: 30px !important;
+        z-index: 1;
+        color: #004dff;
     }
 }
