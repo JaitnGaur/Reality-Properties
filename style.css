@@ -202,6 +202,10 @@ footer {
     padding: 20px 50px 0;
     max-width: 540px
 }
+.sale-section__contact-card img {
+    border-radius: 20px;
+    object-fit: cover;
+}
 .sale-btn {
     background-color: #ff9f00;
     border-radius: 5px;
@@ -232,6 +236,9 @@ footer {
     margin: 15px;
     border: none;
 }
+.owl-item.active.center {
+    margin: 0;
+}
 .owl-item.active.center .card {
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
    line-height: 27px;
@@ -244,12 +251,19 @@ footer {
 .owl-item.active.center .card h5 {
     font-size: 24px;
 }
-
-.owl-nav button {color: #004dff !important;}
+.owl-nav button {
+    color: #004dff !important;
+}
 .owl-carousel .owl-item img {
     height: 100px;
     width: 100px !important;
     display: inline !important;
+    object-fit: cover;
+}
+.owl-nav {
+    display: flex !important;
+justify-content: center;
+column-gap: 15px;
 }
 .owl-nav.disabled {
     display: block !important;
@@ -383,11 +397,6 @@ nav .nav-link {
     }
     .sale-section__info-card {
         padding: 34px;
-    }
-    .owl-nav {
-        display: flex;
-    justify-content: center;
-    column-gap: 15px;
     }
 }
 @media only screen and (min-width: 426px) {
