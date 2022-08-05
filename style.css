@@ -23,6 +23,9 @@ nav .nav-link {
     padding: 0 !important;
     margin-right: 39px;
 }
+.nav-icons-ham {
+    display: none !important;
+}
 .navbar-nav {
     text-align: center;
     margin-left: 50px;
@@ -279,6 +282,13 @@ footer {
         padding: 21px !important;
         border-bottom: 1px solid;
     }
+    .nav-icons {
+        display: none !important;
+    }
+    .nav-icons-ham {
+        display: block !important;
+    }
+
    }
    @media only screen and (max-width: 426px) {
     .footer-para {
@@ -373,5 +383,15 @@ nav .nav-link {
     .dropdown-menu {
         left: 39px !important;
         top: 46px !important;
+    }
+    .heart-icon-margin {
+        margin-left: 15px;
+        margin-right: 11px;
+    }
+    .navbar-toggler {
+        padding: 0;
+    }
+    .navbar-brand img {
+        width: 146px;
     }
 }
