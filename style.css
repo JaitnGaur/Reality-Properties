@@ -35,12 +35,17 @@ nav .nav-link {
     margin-left: 25px;
 }
 .dropdown-toggle {
-    border-right: 0.5px solid rgba(0, 0, 0, 0.2);
     width: 24%;
+}
+.btn {
+    border: none !important;
+    border-right:0.5px solid rgba(0, 0, 0, 0.2)!important;
 }
 .navbar-toggler {
     border: none;
+    margin-left: 20px;
 }
+
 .dropdown-toggle:hover{
     outline:  none;
 }
@@ -358,9 +363,6 @@ column-gap: 15px;
     .contact-section__info-card-body,.contact-section__sell-card-body {
         padding: 34px;
             }
-            .navbar-collapse {
-                height: 100vh;
-            }
   }
 @media only screen and (max-width: 376px){
 .fs-xxl {
@@ -395,7 +397,7 @@ nav .nav-link {
         font-size: 15px;
     }
     .sale-section__info-card .fs-xs {
-    font-size: 8px;
+    font-size: 11px;
     }
     .sale-section__info-card .margin-left {
         margin-left: 5px;
@@ -409,6 +411,7 @@ nav .nav-link {
     }
     .navbar-toggler {
         padding: 0;
+        margin-left: 0;
     }
     .navbar-brand img {
         width: 146px;
